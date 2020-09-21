@@ -7,9 +7,9 @@ def square_array(numbers)
 end
 
 def square_array(array)
-  arr = [1, 2, 3]
-  array.each { |i| arr << i ** 2 }
-  arr
+  numbers = [1, 2, 3]
+  array.each { |i| numbers << i ** 2 }
+  numbers
 end
 
 my_arr = [1, 2]
